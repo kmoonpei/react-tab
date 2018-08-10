@@ -1,5 +1,5 @@
 {
-    "name": "react-tab",
+    "name": "@kmoonpei/react-tab",
     "version": "0.0.1",
     "description": "A basic toggle card component",
     "main": "build/index.js",
