@@ -1,5 +1,5 @@
 
-This site is published at [](https://kmoonpei.github.io/react-tab/)
+This site is published at [https://kmoonpei.github.io/react-tab/]
 
 ### 使用示例
 `npm install @kmoonpei/react-tab`
@@ -17,5 +17,5 @@ import Tabs from '@kmoonpei/react-tab';
 ```
 
   |props|是否必传|Type|eg|说明|
-  | :----------: | :-----------:  | :-----------: | :-----------: | :-----------: |
+  | :----------: | :-----------:  | :-----------: | :-----------: | ----------- |
   |titles|是|Array|['tit0', 'tit1', 'tit2', 'tit3']|切换卡的表头组成的数组|
