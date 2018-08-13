@@ -4,7 +4,7 @@ This site is published at [https://kmoonpei.github.io/react-tab/]
 ### 使用示例
 `npm install @kmoonpei/react-tab`
 
-````javascript
+```javascript
 import Tabs from '@kmoonpei/react-tab';
 
 <Tabs
@@ -12,9 +12,9 @@ import Tabs from '@kmoonpei/react-tab';
   titles={['tit0', 'tit1', 'tit2', 'tit3']}
   contanierStyle={{ width: 300 }}
   currentBgColor={'#a3c'}
-  list={[[0, 0, 0], [1, 1, 1], [2, 2, 2, 2, 2, 2, 2, 2, 2], [3, 3, 3, 3]]} />
-  
+  list={[[0, 0, 0], [1, 1, 1], [2, 2, 2, 2, 2, 2, 2, 2, 2], [3, 3, 3, 3]]} />  
 ```
+### 参数说明
 
   |props|是否必传|Type|eg|说明|
   | :----------: | :-----------:  | :-----------: | :-----------: | ----------- |
