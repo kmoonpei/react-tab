@@ -1,8 +1,3 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/kmoonpei/react-tab/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 
@@ -28,7 +23,8 @@ Syntax highlighted code block
 ### 使用示例
 `npm install @kmoonpei/react-tab`
 
-```import Tabs from '@kmoonpei/react-tab';
+````markdown
+import Tabs from '@kmoonpei/react-tab';
 
 <Tabs
   current_position={2}
