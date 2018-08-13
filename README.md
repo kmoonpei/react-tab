@@ -25,13 +25,16 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
+### 使用示例
+`npm install @kmoonpei/react-tab`
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+`
+import Tabs from '@kmoonpei/react-tab';
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kmoonpei/react-tab/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<Tabs
+  current_position={2}
+  titles={['tit0', 'tit1', 'tit2', 'tit3']}
+  contanierStyle={{ width: 300 }}
+  currentBgColor={'#a3c'}
+  list={[[0, 0, 0], [1, 1, 1], [2, 2, 2, 2, 2, 2, 2, 2, 2], [3, 3, 3, 3]]} />
+`
