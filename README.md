@@ -23,7 +23,7 @@ Syntax highlighted code block
 ### 使用示例
 `npm install @kmoonpei/react-tab`
 
-````markdown
+````javascript
 import Tabs from '@kmoonpei/react-tab';
 
 <Tabs
