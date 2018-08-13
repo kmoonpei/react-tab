@@ -28,10 +28,9 @@ Syntax highlighted code block
 ### 使用示例
 `npm install @kmoonpei/react-tab`
 
-`
-import Tabs from '@kmoonpei/react-tab';
+`import Tabs from '@kmoonpei/react-tab';`
 
-<Tabs
+`<Tabs
   current_position={2}
   titles={['tit0', 'tit1', 'tit2', 'tit3']}
   contanierStyle={{ width: 300 }}
